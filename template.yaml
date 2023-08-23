@@ -10,7 +10,7 @@ Resources:
     Properties:
       Description: 'Extract context,location,Phone details from web scraped data.'
       Handler: lambda_function.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.9
       Timeout: 30
       CodeUri: 
            Bucket: !Ref BucketName
